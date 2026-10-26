@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <base href="$FLUTTER_BASE_HREF">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AI Live Translator — ikki kishi o‘rtasida ovozli tarjima.">
+  <meta name="theme-color" content="#11244b">
+  <title>AI Live Translator</title>
+  <style>
+    html,body { margin:0; background:#f6f8fc; }
+    #loading { position:fixed; inset:0; display:grid; place-content:center;
+      font:500 18px system-ui,sans-serif; color:#11244b; text-align:center; }
+    #loading small { display:block; margin-top:12px; color:#526580; font-size:14px; }
+  </style>
+</head>
+<body>
+  <div id="loading" role="status">AI Live Translator<small>Suhbat oynasi ochilmoqda…</small></div>
+  <script>
+    window.addEventListener('flutter-first-frame', () => document.getElementById('loading')?.remove());
+  </script>
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>

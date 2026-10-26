@@ -1,0 +1,14 @@
+.git
+.env
+.env.*
+.tools
+.sdk
+.browser-cache
+.test-postgres
+.ruff_cache
+.platform-scaffold
+mobile
+docs
+backend/tests
+**/__pycache__
+.pytest_cache

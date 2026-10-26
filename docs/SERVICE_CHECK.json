@@ -1,0 +1,72 @@
+[
+  {
+    "name": "configuration",
+    "status": "PASS",
+    "detail": "Required settings loaded; values hidden"
+  },
+  {
+    "name": "service_key_role",
+    "status": "INFO",
+    "detail": "Remote permission checks will verify server access"
+  },
+  {
+    "name": "supabase_auth",
+    "status": "PASS",
+    "detail": "HTTP 200"
+  },
+  {
+    "name": "supabase_server_access",
+    "status": "PASS",
+    "detail": "HTTP 200"
+  },
+  {
+    "name": "table_profiles",
+    "status": "PASS",
+    "detail": "HTTP 200"
+  },
+  {
+    "name": "table_conversations",
+    "status": "PASS",
+    "detail": "HTTP 200"
+  },
+  {
+    "name": "table_user_preferences",
+    "status": "PASS",
+    "detail": "HTTP 200"
+  },
+  {
+    "name": "table_usage_records",
+    "status": "PASS",
+    "detail": "HTTP 200"
+  },
+  {
+    "name": "table_subscriptions",
+    "status": "PASS",
+    "detail": "HTTP 200"
+  },
+  {
+    "name": "table_conversation_participants",
+    "status": "PASS",
+    "detail": "HTTP 200"
+  },
+  {
+    "name": "allowance_rpc",
+    "status": "PASS",
+    "detail": "HTTP 200"
+  },
+  {
+    "name": "openai_auth_model",
+    "status": "PASS",
+    "detail": "HTTP 200"
+  },
+  {
+    "name": "openai_paid_request",
+    "status": "FAIL",
+    "detail": "OpenAI prepaid credit balance exhausted"
+  },
+  {
+    "name": "audio_pipeline",
+    "status": "SKIP",
+    "detail": "Resolve OpenAI paid-request failure first"
+  }
+]
